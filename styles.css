@@ -232,3 +232,42 @@ body {
     gap: 10px;
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-note {
+  margin: 18px 0 0;
+  font-size: 13px;
+  color: var(--gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.hero-card h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 900px) {
+  .hero-note {
+    margin-top: 16px;
+  }
+
+  .btn {
+    margin-right: 0;
+  }
+}
